@@ -4,6 +4,9 @@ Fine-tuning OpenAI's `whisper-small` to transcribe Sinhala, trained on 194.7 hou
 
 **9.13% CER and 36.47% WER** on 3,000 clips from speakers the model never heard in training. These scores are probably optimistic, because 71% of the test sentences also appear in the training data. See [Limitations](#limitations).
 
+[![Hugging Face model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-whisper--small--sinhala-yellow)](https://huggingface.co/Aadhil96/whisper-small-sinhala)
+[![Kaggle model](https://img.shields.io/badge/Kaggle-model-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/models/aadhilimam/whisper-small-sinhala)
+[![Kaggle demo](https://img.shields.io/badge/Kaggle-Gradio%20demo-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/aadhilimam/sinhala-speech-to-text-gradio-demo)
 [![tests](https://github.com/aadhil96/whisper-small-sinhala/actions/workflows/tests.yml/badge.svg)](https://github.com/aadhil96/whisper-small-sinhala/actions/workflows/tests.yml)
 
 | | |
