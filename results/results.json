@@ -1,0 +1,59 @@
+{
+ "data": {
+  "parts_used": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f"
+  ],
+  "speakers_total": 478,
+  "train_utterances": 160953,
+  "train_hours": 194.7,
+  "val_utterances": 1000,
+  "test_utterances": 3000,
+  "test_sentences_also_in_train": 2125
+ },
+ "training": {
+  "model": "openai/whisper-small",
+  "steps": 6000,
+  "batch_size": 16,
+  "learning_rate": 1e-05,
+  "best_val_cer": 8.240991863618753,
+  "smoke_test": false
+ },
+ "test": {
+  "fine-tuned": {
+   "wer": 36.47192716236722,
+   "cer": 9.12760826255636,
+   "median_utterance_cer": 6.666666666666667,
+   "runaway_outputs": 0,
+   "n": 3000
+  },
+  "whisper-small": {
+   "wer": 444.6661608497724,
+   "cer": 744.6196392995702,
+   "median_utterance_cer": 806.8965517241379,
+   "runaway_outputs": 2636,
+   "n": 3000
+  },
+  "whisper-large-v3": {
+   "wer": 340.4097116843702,
+   "cer": 327.5099612037328,
+   "median_utterance_cer": 94.44444444444444,
+   "runaway_outputs": 938,
+   "n": 3000
+  }
+ }
+}
